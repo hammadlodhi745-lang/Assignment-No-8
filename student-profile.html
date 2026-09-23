@@ -85,21 +85,21 @@
 
                     <div class="col-md-9">
 
-                        <h2 class="fw-bold">Ali Khan</h2>
+                        <h2 class="fw-bold" id="studentName">Ali Khan</h2>
 
                         <p class="text-muted">
                             <i class="bi bi-person-badge-fill"></i>
-                            Student ID : ST-1001
+                            Student ID : <span id="studentId">ST-1001</span>
                         </p>
 
                         <p class="text-muted">
                             <i class="bi bi-mortarboard-fill"></i>
-                            Batch : 2026
+                            Batch : <span id="studentBatch">2026</span>
                         </p>
 
                         <p class="text-muted">
                             <i class="bi bi-envelope-fill"></i>
-                            ali@gmail.com
+                            <span id="studentEmail">ali@gmail.com</span>
                         </p>
 
                         <p class="text-muted">
@@ -297,7 +297,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Student Name</label>
-                        <input type="text" class="form-control" value="Ali Khan">
+                        <input type="text" class="form-control" id="editStudentName" value="Ali Khan">
                     </div>
 
                     <div class="mb-3">
@@ -311,7 +311,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Email</label>
-                        <input type="email" class="form-control" value="ali@gmail.com">
+                        <input type="email" class="form-control" id="editStudentEmail" value="ali@gmail.com">
                     </div>
 
                     <div class="mb-3">
@@ -343,6 +343,7 @@
 
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="profile.js"></script>
 
 </body>
 
